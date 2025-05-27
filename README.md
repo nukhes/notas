@@ -20,3 +20,7 @@ flutter pub get
 flutter run
 ```
 
+# Imagens
+![Tela Inicial](static/01.jpg)
+![Popup de Criação](static/02.jpg)
+![Notas Diversas](static/03.jpg)
