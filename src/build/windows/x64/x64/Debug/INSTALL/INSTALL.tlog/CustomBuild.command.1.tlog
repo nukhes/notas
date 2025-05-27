@@ -1,0 +1,10 @@
+^C:\USERS\ETEC\NOTAS\BUILD\WINDOWS\X64\CMAKEFILES\56D55689814339A20E0C1101EF60F648\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
