@@ -1,16 +1,22 @@
-# notas
+# Notas
+Aplicativos de notas feito com Flutter como atividade para a disciplina de Programação Mobile II no Curso de Desenvolvimento de Sistemas na ETEC, ministrado pela Profª Renata Mirella.
 
-A new Flutter project.
+# Como Rodar
+Para compilar e rodar está aplicação você precisa instalar o [SDK do Flutter](https://flutter.dev/) no seu sistema. Após isso siga as instruções abaixo.
 
-## Getting Started
+- Clone o repositório
+```
+git clone https://github.com/nukhes/notas
+cd notas
+```
 
-This project is a starting point for a Flutter application.
+- Instale as dependências
+```
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+- Rode o código
+```
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
